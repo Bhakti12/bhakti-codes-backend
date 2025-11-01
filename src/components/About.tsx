@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: Code2,
       title: "Backend Migration",
-      description: "Successfully migrated legacy systems from PHP (CodeIgniter) to modern Node.js architecture"
+      description: "Successfully migrated legacy systems from PHP to modern Node.js architecture"
     },
     {
       icon: Database,
