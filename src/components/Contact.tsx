@@ -71,18 +71,18 @@ const Contact = () => {
 
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           <a
-            href="mailto:bhakti.sanghani@email.com"
+            href="mailto:bhaktisanghani2002@gmail.com"
             className="group"
           >
             <Card className="p-6 bg-card border-border shadow-card hover:shadow-glow transition-smooth text-center group-hover:scale-105">
               <Mail className="w-8 h-8 text-primary mx-auto mb-3" />
               <h3 className="font-semibold mb-1">Email</h3>
-              <p className="text-sm text-muted-foreground">bhakti.sanghani@email.com</p>
+              <p className="text-sm text-muted-foreground">bhaktisanghani2002@gmail.com</p>
             </Card>
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/bhakti-s-722215216/"
             target="_blank"
             rel="noopener noreferrer"
             className="group"
@@ -95,7 +95,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://github.com"
+            href="https://github.com/Bhakti12"
             target="_blank"
             rel="noopener noreferrer"
             className="group"

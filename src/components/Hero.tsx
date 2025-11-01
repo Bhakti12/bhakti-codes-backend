@@ -26,7 +26,7 @@ const Hero = () => {
             Bhakti Sanghani
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-            Backend Developer | Node.js Specialist
+            Backend Developer | Node.js | Javascript
           </p>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
             Building scalable backend systems with 2.10 years of experience in Node.js, Express.js, and modern database technologies
@@ -50,7 +50,7 @@ const Hero = () => {
 
           <div className="flex gap-6 justify-center">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Bhakti12" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-smooth"
@@ -58,7 +58,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/bhakti-s-722215216/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-smooth"
@@ -66,7 +66,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="mailto:bhakti.sanghani@email.com"
+              href="mailto:bhaktisanghani2002@gmail.com"
               className="text-muted-foreground hover:text-primary transition-smooth"
             >
               <Mail className="w-6 h-6" />

@@ -5,14 +5,17 @@ import { toast } from "@/hooks/use-toast";
 
 const Resume = () => {
   const handleDownload = () => {
-    // In a real application, this would link to an actual PDF file
+    // Actual Google Drive direct download URL
+    const driveFileId = "1JYImh1tyRhTKfbHQ5yHCXQ4kJqhtoAva";
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${driveFileId}`;
+
+    // Open the file in a new tab to download
+    window.open(downloadUrl, "_blank");
+
     toast({
       title: "Resume Download",
-      description: "Your resume download will begin shortly. Please add your resume PDF to the public folder.",
+      description: "Your resume download has started successfully.",
     });
-    
-    // Simulated download - replace with actual PDF path
-    // window.open('/resume.pdf', '_blank');
   };
 
   return (

@@ -5,7 +5,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Backend Technologies",
-      skills: ["Node.js", "Express.js", "TypeScript", "JavaScript", "RESTful APIs"]
+      skills: ["Node.js", "Express.js", "TypeScript", "JavaScript", "Python", "RESTful APIs", "GraphQL"]
     },
     {
       title: "Databases",
@@ -13,11 +13,7 @@ const Skills = () => {
     },
     {
       title: "Tools & Testing",
-      skills: ["Jest", "EJS", "Git", "npm/yarn"]
-    },
-    {
-      title: "Cloud & Monitoring",
-      skills: ["AWS CloudWatch", "Dynatrace", "Grail Logging"]
+      skills: ["Jest", "EJS", "Git", "npm/yarn", "Swagger", "Postman"]
     }
   ];
 
