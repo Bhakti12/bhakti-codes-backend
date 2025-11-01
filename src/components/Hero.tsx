@@ -64,7 +64,7 @@ const Hero = () => {
           variants={item}
           className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          Designing and deploying high-performance backend systems with
+          Designing and implementing backend systems with
           Node.js, Express.js, and optimized SQL / NoSQL architectures.
         </motion.p>
 
