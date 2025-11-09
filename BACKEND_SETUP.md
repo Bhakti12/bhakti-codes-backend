@@ -63,11 +63,11 @@ PORT=3001
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_SECURE=false
-SMTP_USER=bhaktisanghani2002@gmail.com
+SMTP_USER=your-email@email.com
 SMTP_PASS=your-16-char-app-password-here
 
 # Email recipient
-RECIPIENT_EMAIL=bhaktisanghani2002@gmail.com
+RECIPIENT_EMAIL=your-email@email.com
 ```
 
 **Important:** Replace `your-16-char-app-password-here` with the app password you generated.
