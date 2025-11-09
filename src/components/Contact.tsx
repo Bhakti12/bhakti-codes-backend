@@ -29,16 +29,32 @@ const Contact = () => {
       // Validate form data
       contactSchema.parse(formData);
 
-      // Simulate form submission - In production, this would call an API
-      await new Promise(resolve => setTimeout(resolve, 1000));
-
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
+      // Send form data to backend API
+      const response = await fetch('http://localhost:3001/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
 
-      // Reset form
-      setFormData({ name: "", email: "", message: "" });
+      const data = await response.json();
+
+      if (response.ok && data.success) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for reaching out. I'll get back to you soon.",
+        });
+
+        // Reset form
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        toast({
+          title: "Error",
+          description: data.message || "Failed to send message. Please try again.",
+          variant: "destructive"
+        });
+      }
     } catch (error) {
       if (error instanceof z.ZodError) {
         toast({
