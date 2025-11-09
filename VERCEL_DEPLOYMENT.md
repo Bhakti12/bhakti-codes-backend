@@ -55,9 +55,9 @@ Before deploying, add your SMTP credentials:
 | `SMTP_HOST` | `smtp.gmail.com` | Production, Preview, Development |
 | `SMTP_PORT` | `587` | Production, Preview, Development |
 | `SMTP_SECURE` | `false` | Production, Preview, Development |
-| `SMTP_USER` | `bhaktisanghani2002@gmail.com` | Production, Preview, Development |
+| `SMTP_USER` | `your-email@gmail.com` | Production, Preview, Development |
 | `SMTP_PASS` | `your-16-char-app-password` | Production, Preview, Development |
-| `RECIPIENT_EMAIL` | `bhaktisanghani2002@gmail.com` | Production, Preview, Development |
+| `RECIPIENT_EMAIL` | `your-email@gmail.com` | Production, Preview, Development |
 
 **Important:** Use your Gmail App Password for `SMTP_PASS`, not your regular password.
 
